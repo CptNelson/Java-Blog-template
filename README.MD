@@ -4,6 +4,7 @@ A Blog made with Java Spring Boot, Vue and Tailwind CSS
 
 ## Requirements
 Java 8
+MongoDB
 
 Vue frontend is already build, for a new build Node 16.3.1 and NPM 8.1.2 are needed.
 
