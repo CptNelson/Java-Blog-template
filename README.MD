@@ -17,8 +17,14 @@ mvn clean package
 ```
 This will create a blogapp.jar file on target/ directory, with frontend files included.
 
-if a new build for the Vue frontend is needed, go to src/front directory and run
+if a new build for the Vue frontend is needed, an .env file has to be added with the value
+```
+VUE_APP_API_URL=http://localhost:8080/posts/
+```
+
+to build, go to src/front directory and run
 ```bash
+npm install     // to install node modules
 npm run build 
 ``` 
 this will create the static files into dist/.
